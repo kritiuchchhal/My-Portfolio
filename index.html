@@ -2218,7 +2218,7 @@
     // Set initial active link on page load
     document.addEventListener('DOMContentLoaded', () => {
         const aboutText1Element = document.getElementById('about-text-1');
-        const originalText1 = "I am a dedicated Electrical and Electronic Engineering student at Sylhet Engineering College with a strong passion for technology and innovation. Currently pursuing my Bachelor's degree with a CGPA of 3.68/4.0, I specialize in embedded systems, IoT applications, and deep learning technologies.";
+        const originalText1 = "I am a dedicated Electrical and Electronic Engineering student at Sylhet Engineering College with a strong passion for technology and innovation. Currently pursuing my Bachelor's degree with a CGPA of 3.66/4.0, I specialize in embedded systems, IoT applications, and deep learning,machine learning technologies.";
         
         aboutText1Element.textContent = ''; // Clear content
         aboutText1Element.classList.add('typing-cursor'); // Add cursor
@@ -2892,7 +2892,7 @@
         // Navigation commands (keeping existing ones)
         if (lowerMessage.includes('about') || lowerMessage.includes('who is') || lowerMessage.includes('tell me about')) {
             navigateToSection('#about');
-            return "I've navigated you to the About section! Kriti is a dedicated Electrical and Electronic Engineering student at Sylhet Engineering College with a CGPA of 3.68/4.0. He specializes in embedded systems, IoT applications, and deep learning technologies. His thesis focuses on developing a lightweight skin disease classifier using deep learning and transfer learning techniques.";
+            return "I've navigated you to the About section! Kriti is a dedicated Electrical and Electronic Engineering student at Sylhet Engineering College with a CGPA of 3.66/4.0. He specializes in embedded systems, IoT applications, and deep learning technologies. His thesis focuses on developing a lightweight skin disease classifier using deep learning and transfer learning techniques.";
         }
         
         if (lowerMessage.includes('project') || lowerMessage.includes('work')) {
@@ -3007,7 +3007,7 @@
         }
         
         if (lowerMessage.includes('cgpa') || lowerMessage.includes('grade') || lowerMessage.includes('gpa')) {
-            return `Kriti has maintained an excellent academic record with a CGPA of 3.68/4.0 in his Electrical and Electronic Engineering program at Sylhet Engineering College. He has completed 160 out of 163 credits and is expected to graduate in 2025.`;
+            return `Kriti has maintained an excellent academic record with a CGPA of 3.66/4.0 in his Electrical and Electronic Engineering program at Sylhet Engineering College. He has completed 160 out of 163 credits and is expected to graduate in 2025.`;
         }
 
         if (lowerMessage.includes('help') || lowerMessage.includes('what can you do')) {
